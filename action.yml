@@ -1,0 +1,18 @@
+# Specify name and description of this action
+name: 'Hello World JS Action'
+description: 'Greet someone and record the time'
+
+# Declare inputs
+inputs:
+  who-to-greet: # users need to specify this parameter under with keyword
+    description: 'Who to greet'
+    required: true
+    default: 'World' 
+# Declare outpus
+outputs:
+  time: # accessible via steps.job_id.outputs.time
+    description: 'The time we greeted you'
+# Specify javascript runnner
+runs:
+  using: 'node16'
+  main: 'index.js'
