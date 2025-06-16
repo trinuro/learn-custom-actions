@@ -1,5 +1,5 @@
 # Specify name and description of this action
-name: 'Hello World JS Action'
+name: 'Hello World Return Time Trinuro'
 description: 'Greet someone and record the time'
 
 # Declare inputs
